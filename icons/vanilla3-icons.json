@@ -3,6 +3,12 @@
         "_ext_ts": {
             "iconPath": "ext-ts.png"
         },
+        "_modulescript": {
+            "iconPath": "ModuleScript.png"
+        },
+        "_shared": {
+            "iconPath": "Shared.png"
+        },
         "_ext_client_ts": {
             "iconPath": "ext-client-ts.png"
         },
@@ -78,8 +84,8 @@
 
     "fileExtensions": {
         "ts": "_ext_ts",
-        "lua": "_ext_ts",
-        "luau": "_ext_ts",
+        "lua": "_modulescript",
+        "luau": "_modulescript",
 
         "client.ts": "_ext_client_ts",
         "client.lua": "_ext_server_ts",
@@ -108,8 +114,8 @@
     },
 
     "languageIds": {
-        "lua": "_ext_ts",
-        "luau": "_ext_ts",
+        "lua": "_modulescript",
+        "luau": "_modulescript",
         "ts": "_ext_ts",
         "jsx": "_ext_tsx",
         "tsx": "_ext_tsx"
@@ -121,7 +127,7 @@
 
         "client": "_folder_client",
         "server": "_folder_server",
-        "shared": "_folder_shared",
+        "shared": "_shared",
 
         "components": "_folder_components",
         "controllers": "_folder_singletons",
