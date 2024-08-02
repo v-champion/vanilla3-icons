@@ -7,13 +7,13 @@
 		"Themes"
 	],
 	"version": "1.4.5",
-	"publisher": "zettacache",
+	"publisher": "v-champion",
 	"engines": {
 		"vscode": "*"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zettacache/vanilla3-icons"
+		"url": "https://github.com/v-champion/vanilla3-icons"
 	},
 	"contributes": {
 		"iconThemes": [
